@@ -19,6 +19,11 @@
 
   &__logo {
     height: 3.5rem;
+    transition: all 0.2s;
+
+    &:hover {
+      transform: translateY(-0.4rem);
+    }
   }
 
   &__text-box {
